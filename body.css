@@ -1,0 +1,19 @@
+.left{
+    /*background: white;*/
+    background: rgb(20, 20,20);
+    width: 50%;
+    height: 100vh;
+}
+.right{
+    /*background: url(./Filme/walling-e_MdMMKrgdY-unsplash.jpg);*/
+    background: url(./Filme/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+#pantallas-div{
+    display: flex;
+}
