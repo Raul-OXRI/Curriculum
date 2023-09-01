@@ -27,7 +27,7 @@ body{
 }
 
 .header .log img{
-    height: 70px;
+    height: 60px;
     width: auto;
     transition: all 0.3s;
 }

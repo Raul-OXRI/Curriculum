@@ -1,0 +1,6 @@
+.Pie_pagina{
+    background-color: #d64810;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
