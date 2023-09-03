@@ -1,6 +1,66 @@
 .Pie_pagina{
-    background-color: #d64810;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    background-color: #d64810;   
+}
+.Pie_pagina .grup1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* el display: grid -> es que hace que se subdivide el template o bien se despriegre en 3*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.Pie_pagina .grup1 .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+
+.Pie_pagina .grup1 .box figure img{
+    width: 250px;
+}
+
+.Pie_pagina .grup1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.Pie_pagina .grup1 .box p{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.Pie_pagina .grup1 .red-social a{
+    display: inline-block;
+    /* el text-decoration: none  ->  es la parte de eliminar la parte de abajo de exceso del los logos de boostrap*/
+    text-decoration: none;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.Pie_pagina .grup2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .Pie_pagina .grup1{
+        width: 80%;
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    
 }
