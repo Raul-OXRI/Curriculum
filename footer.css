@@ -10,7 +10,7 @@
     margin: auto;
     /* el display: grid -> es que hace que se subdivide el template o bien se despriegre en 3*/
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
 }

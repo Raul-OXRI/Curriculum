@@ -17,3 +17,21 @@
 #pantallas-div{
     display: flex;
 }
+
+.Tansparencia{
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: white;
+    padding: 90px;
+    margin: 90px;
+    border-radius: 40px;
+}
+
+@media screen and (max-width:800px){
+    .Tansparencia{
+        font-size: 15px;
+        padding: 30px;
+        margin: 30px;
+    }    
+}
