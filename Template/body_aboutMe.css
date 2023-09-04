@@ -2,14 +2,18 @@
     background: rgb(20, 20,20);
     width: 100%;
     height: 100vh;
+    /*  RECOMENZACION AL MOMENTO DE REALIZAR UN CENTRADO YO LO REALICE PORQUE SOLO TENIA 2 UN PADRE Y  UN HIJO
+        YA QUE SOLO VI QUE SOLO SE PODIA REALIZAR CO SOLO 2 HAY QUE PONER EN PRACTICA CON MAS DIV HJOS*/
     display: flex;
-    
+    align-items: center;
 }
 
 .AboutMe-text{
-    width: 250px;
-    height: 250px;
-    
+    width: 400px;
+    height: 400px;
+    /* CON ESTE MARGIN SE CENTRA ORIZONTAL MENTE YA CON EL ALIGN-ITENS CENTER ES VERTICALMENTE 
+       RECOMENDACION EN ESTA PARTE COLO CAR PRIMERO EL MARGIN Y DEPSUES EL ITEMS*/
+    margin: 0 auto;
     
 }
 

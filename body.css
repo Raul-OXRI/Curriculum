@@ -3,6 +3,8 @@
     background: rgb(20, 20,20);
     width: 50%;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .right{
     /*background: url(./Filme/walling-e_MdMMKrgdY-unsplash.jpg);*/
@@ -21,18 +23,16 @@
 .Tansparencia{
     font-size: 23px;
     font-family: 'Roboto Slab', serif;
-    text-align: center;
+    
     color: white;
-    padding: 90px;
-    margin: 90px;
-    border-radius: 40px;
+    margin: 0 auto;
+
     
 }
 
 @media screen and (max-width:800px){
     .Tansparencia{
         font-size: 15px;
-        padding: 30px;
-        margin: 30px;
+        
     }    
 }
