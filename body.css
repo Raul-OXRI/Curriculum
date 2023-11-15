@@ -23,12 +23,34 @@
 .Tansparencia{
     font-size: 23px;
     font-family: 'Roboto Slab', serif;
-    
+    text-align: center;
     color: white;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
 
+.habiliad{
+    color: white;
+    background: rgb(20, 20, 20);
+    width: 100%;
+    height: 100vh;
+    /*  RECOMENZACION AL MOMENTO DE REALIZAR UN CENTRADO YO LO REALICE PORQUE SOLO TENIA 2 UN PADRE Y  UN HIJO
+        YA QUE SOLO VI QUE SOLO SE PODIA REALIZAR CO SOLO 2 HAY QUE PONER EN PRACTICA CON MAS DIV HJOS*/
+    display: flex;
+    align-items: center;
     
 }
+.habiliadconteiner{
+    width: 210px;
+    
+    /* CON ESTE MARGIN SE CENTRA ORIZONTAL MENTE YA CON EL ALIGN-ITENS CENTER ES VERTICALMENTE 
+       RECOMENDACION EN ESTA PARTE COLO CAR PRIMERO EL MARGIN Y DEPSUES EL ITEMS*/
+    margin: 0 auto;
+}
+.subhabilidades{
+    align-items: center;
+    display: flex;
+}
+
 
 @media screen and (max-width:800px){
     .Tansparencia{
